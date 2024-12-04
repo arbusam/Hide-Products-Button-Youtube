@@ -1,7 +1,7 @@
 let countdown = 0
 
 async function hide_button() {
-    const productButton = document.querySelector('[aria-label="View products"]');
+    let productButton = document.querySelector('[aria-label="View products"]');
 
     if (productButton) {
         console.log('Product button found');
